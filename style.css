@@ -1,0 +1,92 @@
+.container{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.keyboard{
+   
+    border: 1px solid rgb(78, 77, 77);
+    width: auto;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    border-radius: 20px;
+
+}
+.title{
+    color: black;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.first-row,
+.second-row,
+.third-row,
+.fourth-row,
+.fifth-row
+    {
+        
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.keyboard-keys{
+    text-align: center;
+}
+.key{
+    font-size: 18px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: top;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    margin: 5px;
+    width: 40px;
+    height: 40px;
+    color: rgb(49, 16, 66);
+    background-color: cornflowerblue;
+    position: relative;
+    color:rgb(255, 255, 255)
+    
+}
+.big-btn{
+    background-color: rgb(20, 50, 80);
+    width: 90px;
+
+}
+.big2-btn{
+    background-color: rgb(20, 50, 80);
+    width: 110px;
+}
+.medium-btn{
+    background-color: rgb(20, 50, 80);
+    width: 75px;
+}
+.super-big-btn{
+    background-color: rgb(20, 50, 80);
+    width: 240px;
+}
+.litle-big-btn{
+    
+    background-color: rgb(20, 50, 80);
+    width: 50px;
+}
+.arrow{
+    background-color: rgb(20, 50, 80);
+}
+.del{
+    background-color: rgb(20, 50, 80);
+}
+textarea{
+    margin: 0 0 20px 0;
+    width: 600px;
+    height: 150px;
+    resize: none;
+}
