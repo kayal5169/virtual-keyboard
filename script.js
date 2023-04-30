@@ -1,4 +1,4 @@
-let keyboard = document.querySelector(".keyboard")
+let  keyboard = document.querySelector(".keyboard")
 let keys = document.querySelectorAll(".key");
 let text = document.querySelector(".text");
 let space = document.querySelector(".space");
