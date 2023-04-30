@@ -24,12 +24,13 @@
     font-family: Arial, Helvetica, sans-serif;
 
 }
-.h3{
+.lang-lnk{
     color: black;
     font-size: 20px;
     font-weight: 600;
     font-family: Arial, Helvetica, sans-serif;
-    margin:0
+    margin: 0;
+    text-decoration: none;
 }
 .first-row,
 .second-row,
@@ -92,15 +93,20 @@
 .del{
     background-color: rgb(20, 50, 80);
 }
-textarea{
+.text{
+    color:rgb(29, 29, 29);
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0 0 20px 0;
     width: 600px;
     height: 150px;
     resize: none;
+    padding: 1rem;
+    max-height: 600px;
 }
 .remove{
     background-color: cornflowerblue;
-    transition: .3s all;
+    transition: .2s all;
 }
 .active{
     font-weight: 600;
@@ -108,7 +114,7 @@ textarea{
     background-color: rgb(255, 255, 255);
     color:rgb(0, 0, 0);
     animation-name: animka;
-    animation-duration: .3s;
+    animation-duration: .2s;
 }
 @keyframes animka{
     0%{
