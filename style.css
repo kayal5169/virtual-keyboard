@@ -98,6 +98,23 @@ textarea{
     height: 150px;
     resize: none;
 }
+.remove{
+    background-color: cornflowerblue;
+    transition: .3s all;
+}
 .active{
-    background-color: brown;
+    font-weight: 600;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    animation-name: animka;
+    animation-duration: .3s;
+}
+@keyframes animka{
+    0%{
+        background-color: cornflowerblue;
+    }
+    100%{
+        background-color: rgb(255, 255, 255);
+    }
 }
